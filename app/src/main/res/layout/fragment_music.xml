@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+TANGGAL PENGERJAAN : 29/05/2023
+NIM                : 10120778
+NAMA               : SYUKUR ALI NURZAKY
+KELAS              : IF-9
+
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg"
+    tools:context=".MusicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp"
+        >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Music"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textColor="@color/white" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            tools:listitem="@layout/music_list_item" />
+
+        <TextView
+            android:id="@+id/titleFriendList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No.1 Most Watch Vids"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="25dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/white" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtubePlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="fKRtnMYMW08"
+            android:layout_marginHorizontal="16sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="16sp"/>
+
+    </LinearLayout>
+</FrameLayout>

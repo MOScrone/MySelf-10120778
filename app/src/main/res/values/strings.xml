@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MySelf</string>
+
+    <string name="heading_one">About</string>
+    <string name="heading_two">Makanan Kesukaan</string>
+    <string name="heading_three">Hobby</string>
+
+    <string name="desc_one"> Ayo mengenal diriku lebih dalam dengan aplikasi ini.</string>
+    <string name="desc_two"> Lihat makanan favoritku.</string>
+    <string name="desc_three"> Kamu pasti penasaran kan apa hobi ku? Cek sekarang juga.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bio_text">Halo, Nama ku <b>Syukur Ali Nur Zaky</b>! Panggil saja aku <b>Jaki atau Jeki</b>. Aku lahir di <b>Depok, 13 September 2002</b> Aku sangat suka sekali makan <b>Mie, Pizza, dan Telur.</b> Minuman kesukaanku adalah <b>Jus Jeruk dan Es Teh Manis.</b> Aku sangat suka sekali bermain <b>Badminton, bermain game dan menonton film.</b> Saat besar nanti aku bercita-cita menjadi seorang <b>programmer!</b></string>
+
+    <!--  Daily Activity Time-->
+    <string name="time_a">07:00</string>
+    <string name="time_b">07:15 - 08:00</string>
+    <string name="time_c">08:00 - 08:30</string>
+    <string name="time_d">08:30 - 16:00</string>
+    <string name="time_e">17:00</string>
+    <string name="time_f">17:30 - 24:00</string>
+    <string name="time_g">00:00 - 07:00</string>
+
+    <!--  Daily Activity Title  -->
+    <string name="title_1">Bangun</string>
+    <string name="title_2">Sarapan</string>
+    <string name="title_3">Olahraga</string>
+    <string name="title_4">Kuliah</string>
+    <string name="title_5">Tiba di rumah</string>
+    <string name="title_6">Bersosialisasi</string>
+    <string name="title_7">Tidur malam</string>
+
+    <!--  Gallery Photo Text  -->
+    <string name="galeri_1">Calon Maba</string>
+    <string name="galeri_2">Hangout dulu guys</string>
+    <string name="galeri_3">Tampak Misterius</string>
+
+    <!--  Music Title Text  -->
+    <string name="music_title_1">Risalah Hati</string>
+    <string name="music_title_2">Isi Hati</string>
+    <string name="music_title_3">Bila Engkau Ijinkan</string>
+
+    <!--  Music Artist Text  -->
+    <string name="music_artist_1">Dewa 19</string>
+    <string name="music_artist_2">Hengky Supit</string>
+    <string name="music_artist_3">Hengky Supit</string>
+
+    <!--  Profile  -->
+    <string name="profile">Nama Ku Syukur Ali Nurzaky. Aku Lahir pada 13 September 2002. Saat ini aku sedang berkuliah di Universitas Komputer Bandung (UNIKOM). Berkenalanlah dengan ku melalui kontak di bawah ini.</string>
+
+</resources>
